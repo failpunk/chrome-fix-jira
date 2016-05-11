@@ -9,6 +9,34 @@
     display: none !important;
 }
 
+/* Hide workflow */
+#issuedetails .status-view {
+    display: none;
+}
+
+/* Tweaking the issue details module */
+#issuedetails.property-list .wrap {
+    padding: 0 10px 0 0;
+}
+
+#issuedetails.property-list .wrap .name {
+    margin-left: 0;
+    width: 87px;
+}
+
+#peoplemodule_heading {
+    display: none;
+}
+
+#peoplemodule {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#peoplemodule .people-details dt, #peoplemodule .item-details dt {
+    width: 85px;
+}
+
 #customfieldmodule,
 #datesmodule,
 #timetrackingmodule,
@@ -19,16 +47,23 @@
     display: none !important;
 }
 
-/*#activitymodule {
-    position: absolute;
-    right: 0;
-    width: 40%;
-    top: 385px;
+/* Cleanup up activity module */
+#transitions-summary-tabpanel, #worklog-tabpanel {
+    display: none;
 }
 
-#linkingmodule {
-    position: absolute;
-    right: 0;
-    width: 40%;
-    top: 260px;
-}*/
+/* Hide export junk */
+.aui-toolbar .toolbar-split-right .toolbar-group {
+    display: none;
+}
+
+/* Modify subtasks */
+
+#view-subtasks #issuetable .issuetype {
+    display: none;
+}
+
+#view-subtasks #issuetable .stsequence div {
+    background-image: none !important;
+    padding: 0 !important;
+}

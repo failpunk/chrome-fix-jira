@@ -1,7 +1,7 @@
 {
   "name": "jira-fixer",
   "description": "Fix the shit show that is Jira",
-  "version": "1.0",
+  "version": "1.0.1",
   "author": "Justin Vencel <failpunk@gmail.com>",
   "permissions": [
     "activeTab"
@@ -22,7 +22,7 @@
   ],
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Fix Jira!"
+    "default_title": "Fix The Jira!"
   },
   "icons": {
     "128": "icon.png"
