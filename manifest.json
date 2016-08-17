@@ -1,7 +1,7 @@
 {
   "name": "jira-fixer",
   "description": "Fix the shit show that is Jira",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Justin Vencel <failpunk@gmail.com>",
   "permissions": [
     "activeTab"
